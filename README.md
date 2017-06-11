@@ -11,7 +11,7 @@ docker配置
 "/root/workplace/nginx/:/etc/nginx/conf.d/"
 
 ~~~
->  2.本地文件需要放在 ~ 目录
+>  2.work.zip解压后的文件需要放在 ~ 目录
 ~~~
   work.zip
 ~~~

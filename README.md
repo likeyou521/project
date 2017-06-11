@@ -12,3 +12,13 @@ docker配置
 
 ~~~
 >  2.文件下载地址
+~~~
+  work.zip
+~~~
+
+3.挂载命令
+
+~~~
+docker run -d --name work_api -v /root/workplace/www/:/data/www/pworks.iot-sw.net/ -v /root/workplace/conf/:/data/conf/ -v /root/workplace/log/:/data/log/ -v /root/workplace/pears/:/usr/lib/php/pear/parking_meter/ -v /root/workplace/nginx/:/etc/nginx/conf.d/ -p 8888:80 pworks.iot-sw.net
+
+~~~

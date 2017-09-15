@@ -1,4 +1,10 @@
 docker配置
+>一些命令
+~~~
+$ docker load < xpface.iot-sw.net.rar
+$ docker run -d --restart=always -p 80:80 -v /data/www:/data/www xpface.iot-sw.net
+$ docker ps
+~~~
 =============
 > 1.挂载目录
 
